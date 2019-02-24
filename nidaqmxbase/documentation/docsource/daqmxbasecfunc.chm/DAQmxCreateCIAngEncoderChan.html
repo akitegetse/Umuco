@@ -1,0 +1,235 @@
+
+<html>
+<head>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+<link rel="STYLESHEET" type="text/css" href="../daqmxbasecfunccommon/styles.css"></link>
+<title>DAQmxBaseCreateCIAngEncoderChan</title>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+</head>
+<body>
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="Keyword" value="DAQmxCreateCIAngEncoderChan" />
+</object>
+<h1>DAQmxBaseCreateCIAngEncoderChan</h1>
+<p class="syntax">int32 DAQmxBaseCreateCIAngEncoderChan (TaskHandle taskHandle, const char counter[], const char nameToAssignToChannel[], int32 decodingType, bool32 ZidxEnable, float64 ZidxVal, int32 ZidxPhase, int32 units, uInt32 pulsesPerRev, float64 initialAngle, const char customScaleName[]);</p>
+<h2>Purpose</h2>
+<p class="body">Creates a channel that uses an <a href="javascript:launchSharedHelp('../measfunds.chm/quadEncoders.html');">angular encoder</a> to measure angular position. You can create only one counter input channel at a time with this function because a task can include only one counter input channel. To read from multiple counters simultaneously, use a separate task for each counter. Connect the input signals to the <a href="javascript:launchSharedHelp('../mxdevconsid.chm/counters.html');">default input terminals</a> of the counter unless you select different input terminals.</p>
+<h2>Parameters</h2>
+<table class="borderless">
+<tr>
+<td>
+<em>Input</em>
+</td>
+</tr>
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>taskHandle</strong>
+</td>
+<td valign="top">TaskHandle</td>
+<td valign="top">The task to which to add the channels that this function creates.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>counter</strong>
+</td>
+<td valign="top">
+<nobr>const char [ ]</nobr>
+</td>
+<td valign="top">The name of the counter to use to create virtual channels such as <span id="monospace">Dev1/ctr0</span>.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>nameToAssignToChannel</strong>
+</td>
+<td valign="top">
+<nobr>const char []</nobr>
+</td>
+<td valign="top">The name to assign to the created virtual channel. <!-- If you do not specify a name, NI-DAQmx uses <strong>physicalChannel</strong> name as the virtual channel name. --> If you specify your own names for <strong>nameToAssignToChannel</strong>, you must use the names when you refer to these channels in other NI-DAQmx Base functions.<br></br>
+
+If you create multiple virtual channels with one call to this function, you can specify a list of names separated by commas. If you provide fewer names than the number of virtual channels you create, NI-DAQmx Base <a href="javascript:launchSharedHelp('../mxcncpts.chm/nameAssignment.html');">automatically assigns names</a> to the virtual channels.</td>
+</tr>
+<tr>
+<td>
+<strong>decodingType</strong>
+</td>
+<td>int32</td>
+<td>TSpecifies how to count and interpret the pulses that the encoder generates on signal A and signal B. <span id="monospace">DAQmx_Val_X1</span>, <span id="monospace">DAQmx_Val_X2</span>, and <span id="monospace">DAQmx_Val_X4</span> are valid for quadrature encoders only. <span id="monospace">DAQmx_Val_TwoPulseCounting</span> is valid only for two-pulse encoders.<br></br>
+<span id="monospace">DAQmx_Val_X2</span> and <span id="monospace">DAQmx_Val_X4</span> decoding are more sensitive to smaller changes in position than <span id="monospace">DAQmx_Val_X1</span> encoding, with <span id="monospace">DAQmx_Val_X4</span> being the most sensitive. However, more sensitive decoding is more likely to produce erroneous measurements if there is vibration in the encoder or other noise in the signals.<br></br>
+<table class="Borderless">
+<tr>
+<th class="Left-Align">Value</th>
+<th width="20"></th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_X1</span>
+</td>
+<td></td>
+<td>If signal A leads signal B, count the rising edges of signal A. If signal B leads signal A, count the falling edges of signal A.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_X4</span>
+</td>
+<td></td>
+<td>Count the rising and falling edges of both signal A and signal B.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_TwoPulseCounting</span>
+</td>
+<td></td>
+<td>Reset the measurement when signal A is at low logic and signal B is at high logic.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<strong>ZidxEnable</strong>
+</td>
+<td>bool32</td>
+<td>Specifies whether to enable <a href="javascript:launchSharedHelp('../measfunds.chm/zIndexing.html');">z indexing</a> for the measurement.</td>
+</tr>
+<tr>
+<td>
+<strong>ZidxVal</strong>
+</td>
+<td>float64</td>
+<td>The value, in <strong>units</strong>, to which to reset the measurement when signal Z is high and signal A and signal B are at the states you specify with <strong>ZidxPhase</strong>.</td>
+</tr>
+<tr>
+<td>
+<strong>ZidxPhase</strong>
+</td>
+<td>int32</td>
+<td>The states at which signal A and signal B must be while signal Z is high for NI-DAQmx Base to reset the measurement. If signal Z is never high while the signal A and signal B are high, for example, you must choose a phase other than <span id="monospace">DAQmx_Val_AHighBHigh</span>.<br></br> 
+
+When signal Z goes high and how long it stays high varies from encoder to encoder. Refer to the documentation for the encoder to determine the timing of signal Z with respect to signal A and signal B.
+<table class="Borderless">
+<tr>
+<th class="Left-Align">Value</th>
+<th width="20"></th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_AHighBHigh</span>
+</td>
+<td></td>
+<td>Reset the measurement when both signal A and signal B are at high logic.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_AHighBLow</span>
+</td>
+<td></td>
+<td>Reset the measurement when signal A is at high logic and signal B is at low logic.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_ALowBHigh</span>
+</td>
+<td></td>
+<td>Reset the measurement when signal A is at low logic and signal B is at high logic.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_ALowBLow</span>
+</td>
+<td></td>
+<td>Reset the measurement when both signal A and signal B are at low logic.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>units</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The units to use to return angular position measurements from the channel.
+	<table class="borderless">
+<tr>
+<th class="Left-Align">Name</th>
+<th width="20"></th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_Degrees</span>
+</td>
+<td></td>
+<td>Degrees.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_Radians</span>
+</td>
+<td></td>
+<td>Radians.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_Ticks </span>
+</td>
+<td>Timebase Ticks.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_FromCustomScale</span>
+</td>
+<td></td>
+<td>Units a custom scale specifies. Use customScaleName to specify a custom scale.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<strong>pulsesPerRev</strong>
+</td>
+<td>uInt32</td>
+<td>The number of pulses the encoder generates per revolution. This value is the number of pulses on one of either A signal or B signal, not the total number of pulses on both signal A and signal B.</td>
+</tr>
+<tr>
+<td>
+<strong>initialAngle</strong>
+</td>
+<td>float64</td>
+<td>The starting angle of the encoder when the measurement begins. Specify this value in <strong>units</strong>.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>customScaleName</strong>
+</td>
+<td valign="top">
+<nobr>const char [ ]</nobr>
+</td>
+<td valign="top">Pass NULL for this parameter.</td>
+</tr>
+</table>
+<h2>Return Value</h2>
+<table class="borderless">
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>status</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The error code returned by the function in the event of an error or warning. A value of 0 indicates success. A positive value indicates a warning. A negative value indicates an error.</td>
+</tr>
+</table>
+</body>
+</html>
+

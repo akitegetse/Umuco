@@ -1,0 +1,98 @@
+NI-DAQmx Base for Mac OS X v installs a number of files, optional
+components and two support packages: NI-VISA and LabVIEW 2015 Runtime Engine.
+To uninstall NI-DAQmx Base for Mac OS X, you must remove the following
+files and folders from the system. To completely remove all National
+Instruments software from the system, you can also remove the
+support package by following the instructions in the "Support
+Packages" section below.
+
+Required Component
+------------------
+
+********************
+NI-DAQmx Base Common
+********************
+
+/Applications/National Instruments/NI-DAQmx Base
+/Library/Frameworks/lib67xx.framework
+/Library/Frameworks/libDIO96.framework
+/Library/Frameworks/libESeries.framework
+/Library/Frameworks/libmiteDma.framework
+/Library/Frameworks/libmxBaseSessionTable.framework
+/Library/Frameworks/libMSeries.framework
+/Library/Frameworks/libSSeries.framework
+/Library/Frameworks/libUSB-92xx.framework
+/Library/Application Support/National Instruments/NI-DAQmx Base
+/Library/Application Support/National Instruments/nipal/inf/nimxbase.inf
+
+Optional Components
+-------------------
+
+*********************************
+NI-DAQmx Base LabVIEW 2012/2013/2014/2015 VIs
+*********************************
+
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/vi.lib/_DAQmxBase
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/vi.lib/_dmxb
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/examples/daqmxbase
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/project/daqmxbaseconfig.llb
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/project/daqmxbaseconfig.vi
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/help/lvdaqmxbase*
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/help/html/lvdaqmxbase*
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/menus/Categories/Measurement/daqmxbase.mnu
+/Applications/National Instruments/LabVIEW <2012 | 2013 | 2014 | 2014 64-bit | 2015 | 2015 64-bit>/menus/Categories/Measurement/_daqmxbase
+
+*************************
+NI-DAQmx Base C Interface
+*************************
+
+/Library/Frameworks/nidaqmxbase.framework
+/Library/Frameworks/nidaqmxbaselv.framework
+/Applications/National Instruments/NI-DAQmx Base/examples
+/Applications/National Instruments/NI-DAQmx Base/includes
+/Applications/National Instruments/NI-DAQmx Base/documentation/docsource/daqmxbasecfunc*
+/Applications/National Instruments/NI-DAQmx Base/documentation/DAQmxBase C Function Ref Help.html
+
+*************************
+NI-DAQmx Base USB Support
+*************************
+
+/Applications/National Instruments/NI-DAQmx Base/bin
+/System/Library/Extensions/niusb9162k.kext
+/Library/Extensions/niusb9162k.kext
+
+Support Packages
+----------------
+
+**************************
+LabVIEW 2015 Runtime Engine
+**************************
+Other applications on your system may require this component. If your system
+contains LabVIEW 2015, National Instruments products dependent upon the runtime
+engine, or standalone executables developed in LabVIEW 2015, removing this
+file could make those products unusable:
+
+/Library/Frameworks/LabVIEW 15.0 Runtime.framework
+
+*******
+NI-VISA
+*******
+Other hardware drivers on your system may require this component. Remove this
+component at your own risk. For instructions on how to remove it, see:
+
+/Applications/National Instruments/NI-VISA/Uninstall.txt
+
+Receipt Components
+-------------------
+
+Use the 'pkgutil --forget package-id' command for the following packages-ids to remove the receipt components.
+
+com.ni.pkg.daqmxbase.cinterface
+com.ni.pkg.daqmxbase.cinterface.LibFwk
+com.ni.pkg.daqmxbase.common
+com.ni.pkg.daqmxbase.common.LibAppSupp
+com.ni.pkg.daqmxbase.common.LibFwk
+com.ni.pkg.daqmxbase.labview<70 | 71 | 80 | 82 | 85 | 86 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2014-x64 | 2015 | 2015-x64>-VIs
+com.ni.pkg.daqmxbase.usb-support
+com.ni.pkg.daqmxbase.usb-support.LibExt
+com.ni.pkg.daqmxbase.usb-support.SysLibExt

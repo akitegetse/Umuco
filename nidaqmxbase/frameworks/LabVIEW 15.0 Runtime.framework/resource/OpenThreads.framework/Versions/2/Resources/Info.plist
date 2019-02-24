@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>CFBundleDevelopmentRegion</key>
+   <string>English</string>
+   <key>CFBundleExecutable</key>
+   <string>OpenThreads</string>
+   <key>CFBundleIdentifier</key>
+   <string>com.ni.framework.OpenThreads</string>
+   <key>CFBundleInfoDictionaryVersion</key>
+   <string>6.0</string>
+   <key>CFBundleName</key>
+   <string>OpenThreads</string>
+   <key>CFBundleGetInfoString</key>
+   <string>OpenThreads 2.8.3f12, Copyright (c) 2003-2014 National Instruments Corporation. All Rights Reserved.</string>
+   <key>CFBundlePackageType</key>
+   <string>FMWK</string>
+   <key>CFBundleSignature</key>
+   <string>????</string>
+   <key>CFBundleShortVersionString</key>
+   <string>2.8.3</string>
+   <key>CFBundleVersion</key>
+   <string>2.8.3f12</string>
+   <key>NSHumanReadableCopyright</key>
+   <string>Copyright (c) 2003-2014 National Instruments Corporation. All Rights Reserved.</string>
+</dict>
+</plist>

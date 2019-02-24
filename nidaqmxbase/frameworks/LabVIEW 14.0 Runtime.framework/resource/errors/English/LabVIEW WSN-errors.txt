@@ -1,0 +1,163 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW WSN" displayname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN:  The last LV WSN Error. Turn back, padawan, there is no where else to go.
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN:  You must enable the serial port receiver power before calling this function, or no new data can be read.
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN:  The device does not support reading or writing the specified number of bytes from the serial port at one time.
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN:  The specified number of bytes cannot be read or written within the specified timeout.
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN:  The specified serial port configuration is unsupported on this device.
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN:  Not enough user RAM.
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN:  Invalid user RAM refnum.
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN:  Verification of user memory failed.
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN:  Failed to write to user memory.
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN:  Failed to write to user memory because the location is not empty.
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN:  User memory out of bounds. The operation specified a location outside the user memory sector.
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN:  Failed to erase the specified user memory sector.
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN:  Null pointer exception.
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN:  Internal error: Hardware failure.
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN:  The node is not connected.
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN:  Invalid argument.
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN:  User message missed.
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN:  Radio failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN:  Flash failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN:  Command queue overflow: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN:  Digital output line failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN:  ADC failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN:  CJC failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN:  SPI communication failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN:  Serial receiving failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN:  Serial transmission failure: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN:  An internal error has occurred in the LabVIEW Wireless Sensor Network Module. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN:  The node ID does not exist in the gateway's node table.
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN:  Invalid message reference.
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN:  Invalid node reference.
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN:  Invalid gateway reference.
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN:  Connection timed out. Gateway might be in a bad state.
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN:  Double interface registration: An internal error has occurred. Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN:  Incompatible or corrupted data was received from the gateway.
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN:  Memory error. Unable to deallocate used memory.
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN:  Memory allocation failed.
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN:  The request processor failed to deserialize a request. This error can occur if protocol versions are incompatible or data is corrupt.
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN:  The request processor failed to deserialize a request. This error can occur if protocol versions are incompatible.
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN:  The request terminated due to an unhandled exception.
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN:  Memory allocation failed.
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN:  The client was denied access.
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN:  The client aborted the connection.
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN:  Network communication failed.
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN:  Connection timed out.
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN:  Unable to connect to the named service.
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN:  Unable to connect to the named gateway.
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN:  Generic connection error.
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN:  First LV WSN Error
+</nierror>
+<nierror code="21100">
+LabVIEW WSN:  First LV WSN Warning
+</nierror>
+<nierror code="21240">
+LabVIEW WSN:  The serial port receiver received a break condition on the line.
+</nierror>
+<nierror code="21241">
+LabVIEW WSN:  The specified number of bytes were read from the serial port before the specified termination string was detected.
+</nierror>
+<nierror code="21299">
+LabVIEW WSN:  The last LV WSN Warning.
+</nierror>
+</nidocument>

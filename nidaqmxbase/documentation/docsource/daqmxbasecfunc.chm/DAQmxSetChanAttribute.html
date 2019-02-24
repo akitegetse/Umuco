@@ -1,0 +1,111 @@
+
+<html>
+<head>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+<link rel="STYLESHEET" type="text/css" href="../daqmxbasecfunccommon/styles.css"></link>
+<title>DAQmxBaseSetChanAttribute</title>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="Keyword" value="DAQmxBaseSetChanAttribute" />
+</object>
+<h1>DAQmxBaseSetChanAttribute</h1>
+<p class="syntax">int32 DAQmxBaseSetChanAttribute (TaskHandle taskHandle, const char channel[], int32 attribute, int32 value);</p>
+<h2>Purpose</h2>
+<p class="body">Writes the value of the requested channel attribute.</p>
+<h2>Parameters</h2>
+<table class="borderless">
+<tr>
+<td>
+<em>Input</em>
+</td>
+</tr>
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>taskHandle</strong>
+</td>
+<td valign="top">TaskHandle</td>
+<td valign="top">The task used in this function.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>channel</strong>
+</td>
+<td valign="top">
+<nobr>const char [ ]</nobr>
+</td>
+<td valign="top">The name of the channel used in this function such as <span id="monospace">Dev1/ai0</span>.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>attribute</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The attribute value that this function should write to the provided taskHandle and channel. 
+<table class="Borderless">
+<tr>
+<th class="Left-Align">Value</th>
+<th width="20"></th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_AI_Coupling</span>
+</td>
+<td></td>
+<td>Specifies the coupling for the channel. For valid attribute values, refer to <a href="couple.html">DAQmx_AI_Coupling values</a>.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_AI_Excit_Src</span>
+</td>
+<td></td>
+<td>Specifies the excitation source for the channel. For valid attribute values, refer to <a href="excitsrc.html">DAQmx_AI_Excit_Src values</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<em>Output</em>
+</td>
+</tr>
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<strong>Value</strong>
+</td>
+<td>
+<nobr>int32</nobr>
+</td>
+<td>The value this function should write to the channel attribute.</td>
+</tr>
+</table>
+<h2>Return Value</h2>
+<table class="borderless">
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>status</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The error code returned by the function in the event of an error or warning. A value of 0 indicates success. A positive value indicates a warning. A negative value indicates an error.</td>
+</tr>
+</table>
+</body>
+</html>
+

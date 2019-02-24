@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="clocks">
+		<param name="Local" value="daqmxbasecfunc.chm/Clocks.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="conventions in this help file">
+		<param name="Local" value="daqmxbasecfunc.chm/Conventions.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="copyright">
+		<param name="Local" value="daqmxbasecfunc.chm/Copyright.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgAnlgEdgeRefTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgAnlgEdgeRefTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgAnlgEdgeStartTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgAnlgEdgeStartTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgDigEdgeRefTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgDigEdgeRefTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgDigEdgeStartTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgDigEdgeStartTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgImplicitTiming">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgImplicitTiming.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgInputBuffer">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgInputBuffer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCfgSampClkTiming">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCfgSampClkTiming.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseClearTask">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxClearTask.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateAIThrmcplChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateAIThrmcplChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateAIVoltageChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateAIVoltageChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateAOVoltageChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateAOVoltageChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCIAngEncoderChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCIAngEncoderChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCICountEdgesChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCICountEdgesChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCILinEncoderChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCILinEncoderChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCIPeriodChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCIPeriodChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCIPulseWidthChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCIPulseWidthChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateCOPulseChanFreq">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateCOPulseChanFreq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateDIChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateDIChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateDOChan">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateDOChan.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseCreateTask">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxCreateTask.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseDisableRefTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxDisableRefTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseDisableStartTrig">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxDisableStartTrig.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseExportSignal">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxExportSignal.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseGetChanAttribute">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxGetChanAttribute.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseGetDevSerialNum">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxGetDevSerialNum.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseGetExtendedErrorInfo">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxGetExtendedErrorInfo.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseGetReadAttribute">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxGetReadAttribute.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseGetWriteAttribute">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxGetWriteAttribute.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseIsTaskDone">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxIsTaskDone.html">
+		</OBJECT>
+	<UL></UL><LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseLoadTask">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxLoadTask.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadAnalogF64">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadAnalogF64.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadBinaryI16">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadBinaryI16.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadBinaryI32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadBinaryI32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadCounterF64">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadCounterF64.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadCounterScalarF64">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadCounterScalarF64.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadCounterScalarU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadCounterScalarU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadCounterU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadCounterU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadDigitalScalarU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadDigitalScalarU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadDigitalU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadDigitalU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseReadDigitalU8">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxReadDigitalU8.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseResetDevice">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxResetDevice.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseSetChanAttribute">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxSetChanAttribute.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseStartTask">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxStartTask.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseStopTask">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxStopTask.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseWriteAnalogF64">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxWriteAnalogF64.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseWriteDigitalScalarU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxWriteDigitalScalarU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseWriteDigitalU32">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxWriteDigitalU32.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxBaseWriteDigitalU8">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxWriteDigitalU8.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmxSetWriteAttribute">
+		<param name="Local" value="daqmxbasecfunc.chm/DAQmxSetWriteAttribute.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmx_Al_Coupling">
+		<param name="Local" value="daqmxbasecfunc.chm/couple.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DAQmx_Al_Excit_Src">
+		<param name="Local" value="daqmxbasecfunc.chm/excitsrc.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="diagnostic tools (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="documentation">
+		<param name="See Also" value="documentation">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="customer feedback on">
+			<param name="Local" value="daqmxbasecfunc.chm/daqmxbasecfunc.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="NI resources">
+			<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="related to this help file">
+			<param name="Local" value="daqmxbasecfunc.chm/Related_Documentation.html">
+			</OBJECT>
+	</UL><LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="drivers (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="examples (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="export compliance information">
+		<param name="Local" value="daqmxbasecfunc.chm/Export_Compliance.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="feedback on documentation">
+		<param name="Local" value="daqmxbasecfunc.chm/daqmxbasecfunc.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="glossary">
+		<param name="Local" value="daqmxbasecfunc.chm/Glossary.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="help file">
+		<param name="See Also" value="help file">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="conventions">
+			<param name="Local" value="daqmxbasecfunc.chm/Conventions.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="glossary">
+			<param name="Local" value="daqmxbasecfunc.chm/Glossary.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="introduction">
+			<param name="Local" value="daqmxbasecfunc.chm/daqmxbasecfunc.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="legal statements">
+			<param name="Local" value="daqmxbasecfunc.chm/Important_Information.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="related documentation">
+			<param name="Local" value="daqmxbasecfunc.chm/Related_Documentation.html">
+			</OBJECT>
+	</UL><LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="instrument drivers (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="KnowledgeBase">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="legal statements">
+		<param name="See Also" value="legal statements">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="copyright">
+			<param name="Local" value="daqmxbasecfunc.chm/Copyright.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="patents">
+			<param name="Local" value="daqmxbasecfunc.chm/Patents.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="trademarks">
+			<param name="Local" value="daqmxbasecfunc.chm/Trademarks.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="warning regarding use of NI products">
+			<param name="Local" value="daqmxbasecfunc.chm/Warning_NI.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="warranty">
+			<param name="Local" value="daqmxbasecfunc.chm/Warranty.html">
+			</OBJECT>
+	</UL><LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="navigating help (Windows Only)">
+		<param name="Local" value="daqmxbasecfunc.chm/Navigating.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="patents">
+		<param name="Local" value="daqmxbasecfunc.chm/Patents.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="printing help file topics (Windows Only)">
+		<param name="Local" value="daqmxbasecfunc.chm/Printing_This_Help_File.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="programming examples (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="searching help (Windows Only)">
+		<param name="Local" value="daqmxbasecfunc.chm/Searching.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="software (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="technical support">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="terminal names">
+		<param name="Local" value="daqmxbasecfunc.chm/Terminal Names.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="trademarks">
+		<param name="Local" value="daqmxbasecfunc.chm/Trademarks.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="training and certification (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="troubleshooting (NI resources)">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="warning regarding use of NI products">
+		<param name="Local" value="daqmxbasecfunc.chm/Warning_NI.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="warranty">
+		<param name="Local" value="daqmxbasecfunc.chm/Warranty.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Web resources">
+		<param name="Local" value="daqmxbasecfunc.chm/Technical_Support_Resources.html">
+		</OBJECT>
+
+</UL>
+</BODY>
+</HTML>

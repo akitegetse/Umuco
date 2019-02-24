@@ -1,0 +1,155 @@
+
+<html>
+<head>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+<link rel="STYLESHEET" type="text/css" href="../daqmxbasecfunccommon/styles.css"></link>
+<title>DAQmxBaseExportSignal</title>
+<script src="../daqmxbasecfunccommon/launchhelpCVI.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="Keyword" value="DAQmxExportSignal" />
+</object>
+<h1>DAQmxBaseExportSignal</h1>
+<p class="syntax">int32 DAQmxBaseExportSignal (TaskHandle taskHandle, int32 signalID, const char outputTerminal[]);</p>
+<h2>Purpose</h2>
+<p class="body">Routes a control signal to the specified terminal. The output terminal can reside on the device that generates the control signal or on a different device. Use this function to share clocks and triggers between multiple tasks and devices. The routes created by this function are task-based routes.</p>
+<h2>Parameters</h2>
+<table class="borderless">
+<tr>
+<td>
+<em>Input</em>
+</td>
+</tr>
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>taskHandle</strong>
+</td>
+<td valign="top">TaskHandle</td>
+<td valign="top">The task used in this function.</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>signalID</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The name of the trigger, clock, or event to export.
+<table class="Borderless">
+<tr>
+<th class="Left-Align">Value</th>
+<th width="20"></th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_AIConvertClock</span>
+</td>
+<td></td>
+<td>Clock that causes an analog-to-digital conversion on an E Series device. One conversion corresponds to a single sample from one channel.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_20MHzTimebaseClock</span>
+</td>
+<td></td>
+<td>Output of an oscillator that is the onboard source of the Master Timebase. Other timebases are derived from this clock.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_SampleClock</span>
+</td>
+<td></td>
+<td>Clock the device uses to time each sample.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_AdvanceTrigger</span>
+</td>
+<td></td>
+<td>Trigger that moves a switch to the next entry in a scan list.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_ReferenceTrigger</span>
+</td>
+<td></td>
+<td>Trigger that establishes the reference point between pretrigger and posttrigger samples.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_StartTrigger</span>
+</td>
+<td></td>
+<td>Trigger that begins a measurement or generation.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_AdvCmpltEvent</span>
+</td>
+<td></td>
+<td>Signal that a switch product generates after it both executes the command(s) in a scan list entry and waits for the settling time to elapse.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_AIHoldCmpltEvent</span>
+</td>
+<td></td>
+<td>Signal that an E Series device generates when the device latches analog input data (the ADC enters "hold" mode) and it is safe for any external switching hardware to remove the signal and replace it with the next signal. This event does not indicate the completion of the actual analog-to-digital conversion.</td>
+</tr>
+<tr>
+<td>
+<span id="Monospace">DAQmx_Val_CounterOutputEvent</span>
+</td>
+<td></td>
+<td>Signal that a counter generates. Each time the counter reaches terminal count, this signal toggles or pulses.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_ChangeDetectionEvent</span>
+</td>
+<td></td>
+<td>Signal that a static DIO device generates when the device detects a rising or falling edge on any of the lins or ports you selected when you configured change detection timing.</td>
+</tr>
+<tr>
+<td>
+<span id="monospace">DAQmx_Val_WDTExpiredEvent</span>
+</td>
+<td></td>
+<td>Signal that a static DIO device generates when the watchdog timer expires.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<strong>outputTerminal</strong>
+</td>
+<td valign="top">
+<nobr>const char [ ]</nobr>
+</td>
+<td valign="top">The destination terminal of the exported signal.</td>
+</tr>
+</table>
+<h2>Return Value</h2>
+<table class="borderless">
+<tr>
+<th class="Left-Align">Name</th>
+<th class="Left-Align">Type</th>
+<th class="Left-Align">Description</th>
+</tr>
+<tr>
+<td valign="top">
+<strong>status</strong>
+</td>
+<td valign="top">int32</td>
+<td valign="top">The error code returned by the function in the event of an error or warning. A value of 0 indicates success. A positive value indicates a warning. A negative value indicates an error.</td>
+</tr>
+</table>
+</body>
+</html>
+
